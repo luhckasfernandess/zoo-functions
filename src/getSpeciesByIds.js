@@ -20,6 +20,6 @@ function getSpeciesByIds(...ids) {
   // Eu ñ acredito que em uma linha eu terminei esta coisa que me fez perder um dia inteiro.
 }
 
-console.log(getSpeciesByIds());
+// console.log(getSpeciesByIds());
 
 module.exports = getSpeciesByIds;
