@@ -11,6 +11,7 @@ function countEntrants(entrants) {
 function calculateEntry(entrants) {
   let calculate = 0;
   if (typeof entrants === 'undefined') return calculate;
+  // Usei Object.keys para transformar o objeto em array e saber o tamanho para ver se está vazio
   if (Object.keys(entrants).length === 0) return calculate;
   const count = countEntrants(entrants);
   // child: 20.99, adult: 49.99, senior: 24.99
